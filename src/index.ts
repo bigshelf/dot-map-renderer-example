@@ -1,6 +1,5 @@
 import {DotMap} from "dot-map-renderer"
 
-
 const $body = document.querySelector('body');
 
 const dotMap = new DotMap({
@@ -10,9 +9,8 @@ const dotMap = new DotMap({
     gapSize: 8,
 });
 
-
 dotMap.attaching($body);
-const {controller}  = dotMap;
+const {controller} = dotMap;
 controller.addAnchors([13,81]);
 controller.addAnchors([13,43]);
 controller.addAnchors([13,13]);
